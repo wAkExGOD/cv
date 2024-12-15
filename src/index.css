@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #121a1c;
+  --color-emerald: #2c5d63;
+  --color-green: #a2c11c;
+  --color-white: #e0e0e0;
+}
+
+:root {
+  font-family: "Roboto Mono", monospace, Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+a {
+  transition: 0.15s all ease-in;
+  border-bottom: 1px dashed transparent;
+}
+
+a:hover {
+  color: var(--color-green);
+  border-color: var(--color-emerald);
+}
