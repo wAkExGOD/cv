@@ -8,7 +8,7 @@ export function WorkExperience() {
       </h2>
       <ul className="flex flex-col gap-6">
         {WORK_PLACES.map(({ company, role, date, description }) => (
-          <li key={company.name} className="flex gap-4">
+          <li key={date} className="flex gap-4">
             <a
               href={company?.link || "#"}
               target="_blank"
