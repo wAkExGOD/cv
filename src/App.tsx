@@ -1,4 +1,11 @@
-import { Header, Banner, WorkExperience, PetProjects, Info } from "./components"
+import {
+  Header,
+  Banner,
+  WorkExperience,
+  PetProjects,
+  Education,
+  Info,
+} from "./components"
 
 function App() {
   return (
@@ -13,6 +20,7 @@ function App() {
           <div className="flex flex-col gap-8 md:gap-12">
             <WorkExperience />
             <PetProjects />
+            <Education />
           </div>
         </div>
       </div>

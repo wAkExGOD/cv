@@ -1,4 +1,5 @@
 export * from "./contacts"
+export * from "./educationPlaces"
 export * from "./languages"
 export * from "./petProjects"
 export * from "./siteSectionIds"

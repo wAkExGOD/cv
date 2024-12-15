@@ -4,7 +4,7 @@ import SDTVLogo from "../assets/companies/sdtv.jpg"
 
 type WorkPlace = {
   company: {
-    name: string
+    name: string | React.ReactNode
     imgSrc?: string
     link?: string
   }
@@ -33,11 +33,17 @@ export const WORK_PLACES: WorkPlace[] = [
     },
     role: "Frontend Developer",
     date: "Aug 2023 - Nov 2024",
-    description: "",
+    description:
+      "Development of various iGaming projects from scratch: from common landing pages to Telegram Mini App.",
   },
   {
     company: {
-      name: "Crypto Startup (unlaunched project)",
+      name: (
+        <span>
+          Crypto Startup{" "}
+          <span className="text-gray-400">(unlaunched project)</span>
+        </span>
+      ),
     },
     role: "Fullstack Developer",
     date: "Oct 2022 - Mar 2023",

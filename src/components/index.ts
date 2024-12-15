@@ -1,5 +1,7 @@
 export * from "./Banner"
+export * from "./Education"
 export * from "./Header"
 export * from "./Info"
+export * from "./LinkIcon"
 export * from "./PetProjects"
 export * from "./WorkExperience"

@@ -27,7 +27,9 @@ export function WorkExperience() {
               )}
             </a>
             <div className="flex flex-col gap-1">
-              <p className="text-lg text-green leading-none">{role}</p>
+              <p className="text-lg font-medium text-green leading-none">
+                {role}
+              </p>
               <p className="text-sm">{company.name}</p>
               <p className="text-sm">{date}</p>
               {description && (

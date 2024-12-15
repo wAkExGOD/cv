@@ -12,7 +12,7 @@ export const CONTACTS = [
     link: "https://www.linkedin.com/in/vladislav-panasik/",
   },
   {
-    title: "Email",
+    title: "vladpanasik@mail.ru",
     link: "mailto:vladpanasik@mail.ru",
   },
 ] as const
