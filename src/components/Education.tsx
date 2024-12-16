@@ -1,5 +1,5 @@
 import { EDUCATION_PLACES, SITE_SECTION_IDS } from "../constants"
-import { LinkIcon } from "./LinkIcon"
+import { LinkIcon } from "./Icons"
 
 export function Education() {
   return (

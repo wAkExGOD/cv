@@ -28,11 +28,15 @@ const sections = [
   {
     title: "Contacts",
     content: (
-      <ul className="flex flex-col" id={SITE_SECTION_IDS.contacts}>
-        {CONTACTS.map(({ title, link }) => (
+      <ul className="flex flex-col gap-1" id={SITE_SECTION_IDS.contacts}>
+        {CONTACTS.map(({ title, link, icon }) => (
           <li key={title}>
-            <a href={link} target="_blank" className="text-sm">
-              {title}
+            <a
+              href={link}
+              target="_blank"
+              className="inline-flex items-center gap-2 text-sm"
+            >
+              {icon && icon} <span>{title}</span>
             </a>
           </li>
         ))}

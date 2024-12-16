@@ -1,5 +1,5 @@
 import { PET_PROJECTS, SITE_SECTION_IDS } from "../constants"
-import { LinkIcon } from "./LinkIcon"
+import { LinkIcon } from "./Icons"
 
 export function PetProjects() {
   return (
