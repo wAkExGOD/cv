@@ -9,7 +9,7 @@ const links = [
 
 export function Header() {
   return (
-    <div className="flex items-center justify-end gap-6">
+    <div className="grid grid-cols-2 grid-rows-2 justify-items-start gap-2 sm:flex sm:gap-6 sm:items-center justify-end ">
       {links.map(({ title, href }) => (
         <a
           key={title}

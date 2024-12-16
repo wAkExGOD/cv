@@ -47,7 +47,7 @@ const sections = [
 
 export function Info() {
   return (
-    <ul className="flex flex-wrap gap-6 md:flex-col">
+    <ul className="flex flex-wrap gap-3 md:gap-6 md:flex-col">
       {sections.map(({ title, content }) => (
         <li key={title} className="flex flex-col gap-2">
           <h2 className="font-bold text-2xl">{title}</h2>
