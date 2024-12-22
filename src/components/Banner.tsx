@@ -12,6 +12,8 @@ export function Banner() {
         <div className="w-40 shrink-0">
           <img
             src={Me}
+            width={160}
+            height={160}
             alt="Vladislav Panasik"
             className="rounded-xl shadow-xl border border-emerald"
           />

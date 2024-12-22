@@ -20,6 +20,8 @@ export function WorkExperience() {
                 <img
                   src={company.imgSrc}
                   alt={`${company.name} logo`}
+                  width={64}
+                  height={64}
                   loading="lazy"
                 />
               ) : (
