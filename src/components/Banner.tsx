@@ -22,7 +22,7 @@ export function Banner() {
           className="min-h-36 md:min-h-28"
           style={{ whiteSpace: "pre-line" }}
           sequence={[
-            "Hi! 👋 My name is Vlad. \nI am a passionate Frontend Developer with over 1.5 years of commercial experience working on various projects, including creating responsive websites and user-friendly interfaces with a strong focus on writing clean and efficient code.",
+            "Hi! 👋 My name is Vlad. \nI am a passionate Frontend Developer with over 2.5 years of commercial experience working on various projects, including creating responsive websites and user-friendly interfaces with a strong focus on writing clean and efficient code.",
           ]}
           speed={90}
           repeat={0}

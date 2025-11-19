@@ -2,7 +2,7 @@ import {
   Header,
   Banner,
   WorkExperience,
-  PetProjects,
+  // PetProjects,
   Education,
   Info,
 } from "./components"
@@ -19,7 +19,7 @@ function App() {
           </div>
           <div className="flex flex-col gap-8 md:gap-12">
             <WorkExperience />
-            <PetProjects />
+            {/* <PetProjects /> */}
             <Education />
           </div>
         </div>

@@ -14,16 +14,16 @@ export function Education() {
               key={specialty}
               className="flex gap-4 border border-emerald rounded-md p-6"
             >
-              <div className="flex flex-col gap-2">
+              <div>
                 <a
                   href={specialtyLink}
                   target="_blank"
-                  className="text-lg leading-tight font-medium text-green"
+                  className="text-lg leading-tight font-medium text-green inline-block mb-2"
                 >
                   <LinkIcon className="inline text-emerald mr-2 mb-1" />
                   <span>{specialty}</span>
                 </a>
-                <div className="text-sm text-gray-400">
+                <div className="text-sm text-gray-400 mb-3">
                   <span>{date}</span> <span>{place}</span>
                 </div>
                 <a href={facultyLink} target="_blank" className="font-medium">
